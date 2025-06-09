@@ -7,6 +7,7 @@ from amas.data.model_data import model_df, symbolic_class_trait_weights, symboli
 from amas.data.metadata import symbolic_metadata_loaded, narrative_neighbors
 from amas.data.traits import trait_names
 from report_generator import generate_symbolic_report
+
 # Define your subject here (example)
 subject = {
     "name": "Example Subject",
@@ -31,6 +32,7 @@ top_df, ensemble_df = ensemble_rank_alignment(
 # Narrative neighborhood evaluation
 filtered_df = ensemble_df[ensemble_df["Model Name"].isin(qualified_models)].reset_index(drop=True)
 top_model = filtered_df.iloc[0]["Model Name"] if not filtered_df.empty else "None"
+match_status = "Exact" if top_model in qualified_models else "Conflict"
 cluster_neighbors = narrative_neighbors.get(top_model, [])
 ensemble_top3 = list(filtered_df["Model Name"].values[:3])
 
@@ -39,3 +41,4 @@ print("Subject:", subject["name"])
 print("Top Match:", top_model)
 print("Cluster Neighbors:", cluster_neighbors)
 print("Ensemble Top 3:", ensemble_top3)
+generate_symbolic_report(subject["name"], subject_vector, top_model, match_status)
