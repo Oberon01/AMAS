@@ -1,28 +1,58 @@
+# System Overview: AMAS – Archetypal Model Alignment System
 
-# AMAS: Archetypal Model Alignment System
+## Core Functionality
 
-The AMAS system is a symbolic cognition engine that aligns individuals to abstract cognitive models based on a 10-dimensional trait vector.
+AMAS evaluates cognitive and symbolic profiles against five consolidated mental models using a hybrid numeric-symbolic method.
 
-## Contents
-- `amas/` – Core engine modules
-- `amas_overlay_simulation.py` – Example simulation script
-- `AMAS_Symbolic_Metadata.json` – Symbolic metadata for model overlay logic
-- Trait weightings and penalties for ensemble modeling
-- Narrative neighborhood clustering logic
+### 1. Trait-Based Vector Alignment
+Each subject is defined using a 10-dimensional trait vector:
+1. Symbolic Capacity
+2. System Awareness
+3. Meta-Cognition
+4. Paradigm Flexibility
+5. Cognitive Containment
+6. Epistemic Clarity
+7. Temporal Projection
+8. Narrative Coherence
+9. Shadow Awareness
+10. Alignment Receptivity
 
-## Requirements
-- Python 3.9+
-- pandas, numpy, matplotlib (if running visualization)
-- Custom internal modules found in `amas/`
+### 2. Ensemble Scoring
+Weighted trait similarity and symbolic penalties yield a ranked list of candidate models.
 
-## Usage
-To run a symbolic alignment:
-1. Define a subject with a 10-length trait vector.
-2. Run `amas_overlay_simulation.py`
-3. The script will output:
-   - Top model match
-   - Cluster neighbors
-   - Ensemble top 3 predictions
+### 3. Overlay Filtering
+Symbolic metadata filters dissonant matches through fuzzy resonance thresholds.
 
-## Contact
-This system is under continuous development. Contact the author for updates or advanced symbolic profiling integration.
+### 4. Narrative Neighborhoods
+Symbolically adjacent matches are accepted through cluster logic, enabling approximate symbolic alignment.
+
+---
+
+## Key Files
+- `amas/` – Core modules
+- `amas_overlay_simulation.py` – Sample simulation runner
+- `AMAS_Symbolic_Metadata.json` – Symbolic overlay rulebase
+- Class-level trait weight map and penalty models
+
+---
+
+## Simulation Example
+
+Input:
+```
+[9, 10, 10, 9, 8, 9, 10, 9, 9, 9]
+```
+
+Output:
+```
+Top Match: Recursive Architect
+Cluster Neighbors: Interpretive Synthesizer, Strategic Simulator
+Status: Exact Match
+```
+
+---
+
+## Future Extensions
+- Model deviation scoring
+- Real-time symbolic profiling via UI
+- Integration into larger symbolic cognition frameworks
