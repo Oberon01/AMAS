@@ -1,0 +1,62 @@
+{
+  "Recursive Architect": {
+    "Narrative Core": "Builder of recursive structures, systems within systems",
+    "Archetypal Role": "Meta-thinker, symbolic engineer, systemic mirror",
+    "Shadow Bias": "Paralysis from over-abstraction; endless nesting",
+    "Symbolic Anchors": {
+      "Symbolic Capacity": 9,
+      "Meta-Cognition": 8
+    },
+    "Disqualifying Signatures": {
+      "Cognitive Containment": "< 6"
+    }
+  },
+  "Strategic Simulator": {
+    "Narrative Core": "Timeline navigator, future-cause interpreter",
+    "Archetypal Role": "Causal tactician, scenario weaver, long-view planner",
+    "Shadow Bias": "Traps in probabilistic fatalism, future obsession",
+    "Symbolic Anchors": {
+      "Temporal Projection": 9,
+      "System Awareness": 8
+    },
+    "Disqualifying Signatures": {
+      "Alignment Receptivity": "< 6"
+    }
+  },
+  "Interpretive Synthesizer": {
+    "Narrative Core": "Symbol weaver; extracts structure from meaning",
+    "Archetypal Role": "Decoder, narrative integrator, translator of logic",
+    "Shadow Bias": "Loops of overinterpretation; lacks grounding",
+    "Symbolic Anchors": {
+      "Narrative Coherence": 9,
+      "Symbolic Capacity": 9
+    },
+    "Disqualifying Signatures": {
+      "Epistemic Clarity": "< 6"
+    }
+  },
+  "Narrative Anchor": {
+    "Narrative Core": "Preserver of identity and symbolic continuity",
+    "Archetypal Role": "Myth-bearer, identity stabilizer, meaning holder",
+    "Shadow Bias": "Resists evolution; identity rigidity or distortion",
+    "Symbolic Anchors": {
+      "Shadow Awareness": 9,
+      "Narrative Coherence": 9
+    },
+    "Disqualifying Signatures": {
+      "Paradigm Flexibility": "> 9"
+    }
+  },
+  "Relational Echo": {
+    "Narrative Core": "Reflective agent of social-symbolic logic",
+    "Archetypal Role": "Mirror-thinker, dialogic resonator, empathy loop",
+    "Shadow Bias": "Loss of identity through reflection; relational absorption",
+    "Symbolic Anchors": {
+      "Alignment Receptivity": 9,
+      "Shadow Awareness": 8
+    },
+    "Disqualifying Signatures": {
+      "Symbolic Capacity": "< 6"
+    }
+  }
+}
